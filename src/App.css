@@ -1,0 +1,544 @@
+body {
+  background-color: #fffcf8 !important;
+  font-family: "Poppins", sans-serif !important;
+  font-size: 18px !important;
+}
+.main {
+  background-image: url("./images/bg.jpg");
+  background-size: cover;
+  padding-bottom: 60px;
+}
+.App-header {
+  margin-top: 25px;
+}
+
+.App-header img {
+  width: 200px;
+}
+
+.btn-primary {
+  color: #fff !important;
+  background-color: #f79521 !important;
+  border-color: #f79521 !important;
+  padding: 10px 40px !important;
+  border-radius: 30px !important;
+  margin-right: 10px;
+  font-size: 14px !important;
+  box-shadow: 0px 10px 26px 0 #f7952136;
+}
+.btn-primary:hover {
+  box-shadow: 0px 10px 26px 0 #f79521bd;
+}
+.btn-info {
+  color: #f79521 !important;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  padding: 10px 40px !important;
+  border-radius: 30px !important;
+  font-size: 14px !important;
+  box-shadow: 0px 10px 26px 0 #f7952136;
+}
+.btn-info:hover {
+  box-shadow: 0px 10px 26px 0 #f79521bd;
+}
+.btn:focus {
+  box-shadow: 0 0 0 0.25rem rgb(247 149 33 / 18%) !important;
+}
+.App-content {
+  margin-top: 50px;
+}
+
+/* Content */
+.App-content img {
+  width: 100%;
+  margin-left: -60px;
+}
+.App-content h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+}
+.App-content p {
+  line-height: 114px;
+  text-align: left;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 1);
+  margin-bottom: 0;
+}
+
+.App-content .content-header {
+  margin-left: 35px;
+  margin-top: 50px;
+}
+.App-content .content-search {
+  display: flex;
+}
+.App-content .content-search .form-control {
+  border-radius: 30px !important;
+  padding: 20px 25px !important;
+  margin-right: 5px !important;
+  font-size: 12px !important;
+  width: 70%;
+}
+.App-content .content-search .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #f7952157 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(247 149 33 / 10%) !important;
+}
+
+.activity {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  box-shadow: 1px 0px 4px 0px #e8e8e8;
+  margin-top: 80px;
+}
+.activity .bg-image {
+  background-image: url("./images/bg-more.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 40px;
+}
+.activity h1 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-top: 25px;
+}
+
+.divider {
+  position: relative;
+}
+.divider img {
+  position: relative;
+  width: 40px;
+}
+.divider .divider-space-left {
+  background: #f79521;
+  height: 1px;
+  position: absolute;
+  width: 8%;
+  top: 16px;
+  left: 40%;
+}
+.divider .divider-space-right {
+  background: #f79521;
+  height: 1px;
+  position: absolute;
+  width: 8%;
+  top: 16px;
+  right: 40%;
+}
+
+.activity p {
+  color: #969494;
+  font-size: 16px;
+}
+
+.activity .top-card h2 {
+  font-size: 18px;
+  margin-bottom: 0;
+  font-weight: bold;
+}
+.activity .top-card .fa {
+  font-size: 13px;
+  color: #f79521;
+  padding-left: 5px;
+}
+.activity .top-card .rate {
+  font-size: 12px;
+  padding-left: 5px;
+}
+.App-Slider h3 {
+  font-weight: bold;
+  font-size: 23px;
+  text-align: left;
+  margin-top: 15px;
+}
+.App-Slider .card {
+  border-color: #f7952169 !important;
+}
+.quote {
+  text-align: left;
+  display: flex;
+}
+.quote p {
+  font-size: 14px;
+  color: #000;
+  margin-left: 5px;
+}
+.footer-note {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footer-note b {
+  font-size: 13px;
+  font-weight: 500;
+}
+.footer-note .btn {
+  background-color: #fff !important;
+  color: #f79521 !important;
+  box-shadow: none !important;
+}
+.footer-note .btn:hover {
+  box-shadow: 0px 10px 26px 0 #f7952136 !important;
+}
+
+.carousel .control-dots .dot {
+  transition: opacity 0.25s ease-in;
+  opacity: 1 !important;
+  box-shadow: none !important;
+  background: #fff;
+  border-radius: 50%;
+  width: 10px !important;
+  height: 10px !important;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 8px;
+  border: 1px solid #f79521 !important;
+}
+.carousel .control-dots .dot.selected {
+  background: #f79521;
+  width: 20px !important;
+  border-radius: 5px;
+  box-shadow: none;
+}
+.topcategories {
+  background-color: transparent;
+  text-align: center;
+  padding: 20px;
+  box-shadow: none;
+  margin-top: 80px;
+}
+.TopCategories {
+  margin-bottom: 50px;
+}
+.TopCategories img {
+  width: 100%;
+}
+.TopCategories h3 {
+  font-size: 25px;
+}
+.TopCategories .card-body {
+  padding: 10px !important;
+  text-align: left;
+}
+.TopCategories .card {
+  border-radius: 15px !important;
+  border: none;
+  padding: 5px;
+}
+.TopCategories .card .btn-xs{
+  margin-top: -100px;
+  margin-left: 10px;
+}
+.TopCategories .card .content-text-cat {
+  margin-left: 10px;
+
+}
+.TopCategories .card .content-text-cat p{
+  color: #1f1e1e;
+  font-size: 16px;
+  line-height: 1.8;
+
+}
+.content-footer-cat {
+  padding: 10px;
+  color: #f79521;
+}
+.content-footer-cat span{
+  padding: 5px;
+}
+
+.educations {
+  background-color: #fff;
+}
+.App-educations-logo {
+  width: 100%;
+}
+
+ .edu {
+  font-weight: bold;
+  font-size: 36px;
+}
+.educations p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+}
+.educations .btn {
+  padding: 20px 40px !important;
+}
+
+.subscribe {
+  background-image: url("./images/subscribe.png");
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  border-radius: 15px;
+  background-size: cover;
+  padding: 50px;
+  box-shadow: 5px 17px 37px 0px #f7952175;
+}
+.subscribe h3{
+  font-weight: bold;
+  font-size: 25px;
+  color: #fff;
+  margin-left: 50px;
+}
+.input-group .form-control {
+  line-height: 4.6 !important;
+  border-radius: 50px !important;
+  font-size: 13px !important;
+  z-index: 1 !important;
+  padding-left: 30px !important;
+}
+.input-group  .form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #f7952157 !important;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgb(247 149 33 / 10%) !important;
+}
+.input-group .btn {
+  margin-top: 10px;
+  padding: 15px 42px !important;
+}
+.input-group>:not(:first-child):not(.dropdown-menu):not(.valid-tooltip):not(.valid-feedback):not(.invalid-tooltip):not(.invalid-feedback) {
+  margin-left: -205px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* Footer */
+.Footer {
+  margin-top: 80px;
+  
+}
+.Footer img{
+  width: 200px;
+}
+.Footer h3{
+  font-size: 23px;
+  font-weight: bold;
+}
+.Footer p{
+  font-size: 14px;
+  line-height: 1.9;
+  margin-left: 15px;
+  margin-top: 20px;
+  color: #898989;
+}
+.Footer ul{
+  list-style: none;
+  padding: 0;
+}
+.Footer ul li{
+  font-size: 14px;
+  color: #878787;
+}
+.Footer .fa{
+  color: #f79521;
+
+}
+.Footer .li-last{
+  margin-bottom: 10px;
+  line-height: 1.9;
+
+}
+.Footer .fa-facebook,
+.Footer .fa-youtube-play,
+.Footer .fa-instagram
+{
+  background: #f7952130;
+  padding: 15px 17px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-bottom: 40px;
+
+}
+.created_by{
+  background: #f79521;
+  box-shadow: 5px 10px 38px 29px #f7952175;
+
+}
+.created_by p{
+  color: #fff;
+  font-weight: 500;
+}
+
+
+/***********************************************************/
+@media (max-width: 575.98px) { 
+    .App-header-mobile{
+      display: block !important;
+      text-align: center;
+    }
+    .App-header-mobile img{
+      margin-bottom: 20px;
+    }
+    .App-content h1 {
+      font-size: 30px;
+    }
+    .App-content p {
+      line-height: 50px;
+    }
+    .App-content .content-header {
+      margin-left: 0;
+    }
+    .content-search {
+      display: block !important;
+    }
+    .content-search .form-control,
+    .content-search .btn{
+      width: 100% !important;
+    }
+    .content-search .btn,
+    .content-search .form-control {
+      margin-top: 15px;
+    }
+    .activity {
+      margin-top: 40px
+    }
+    .activity .bg-image {
+      padding: 5px !important;
+    }
+    .divider .divider-space-right {
+      background: #f79521;
+    height: 1px;
+    position: absolute;
+    width: 34%;
+    top: 16px;
+    right: 11%;
+    }
+    .divider .divider-space-left {
+      background: #f79521;
+      height: 1px;
+      position: absolute;
+      width: 34%;
+      top: 16px;
+      left: 11%;
+    }
+    .activity h1{
+      font-size: 30px;
+    }
+    .App-Slider .card {
+      margin-bottom: 10px;
+    }
+    .footer-note {
+      display: block;
+    }
+    .input-group .btn {
+      margin-top: 10px;
+      padding: 10px 7px !important;
+  }
+  .input-group .form-control{
+    width: 100% !important;
+  }
+  .input-group {
+    display: block;
+    
+  }
+  .Footer h3{
+    margin-left: 15px;
+    margin-top: 10px;
+  }
+  .Footer .fa {
+    margin-left: 15px;
+    
+  }
+  .Footer .li-last {
+    margin-left: 15px;
+
+  }
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+  .App-header-mobile{
+    display: block !important;
+    text-align: center;
+  }
+  .App-header-mobile img{
+    margin-bottom: 20px;
+  }
+  .App-content h1 {
+    font-size: 30px;
+  }
+  .App-content p {
+    line-height: 50px;
+  }
+  .App-content .content-header {
+    margin-left: 0;
+  }
+  .content-search {
+    display: block !important;
+  }
+  .content-search .form-control,
+  .content-search .btn{
+    width: 100% !important;
+  }
+  .content-search .btn,
+  .content-search .form-control {
+    margin-top: 15px;
+  }
+  .activity {
+    margin-top: 40px
+  }
+  .activity .bg-image {
+    padding: 5px !important;
+  }
+  .divider .divider-space-right {
+    background: #f79521;
+  height: 1px;
+  position: absolute;
+  width: 34%;
+  top: 16px;
+  right: 11%;
+  }
+  .divider .divider-space-left {
+    background: #f79521;
+    height: 1px;
+    position: absolute;
+    width: 34%;
+    top: 16px;
+    left: 11%;
+  }
+  .activity h1{
+    font-size: 30px;
+  }
+  .App-Slider .card {
+    margin-bottom: 10px;
+  }
+  .footer-note {
+    display: block;
+  }
+  .input-group .btn {
+    margin-top: 10px;
+    padding: 10px 7px !important;
+}
+.input-group .form-control{
+  width: 100% !important;
+}
+.input-group {
+  display: block;
+  
+}
+.Footer h3{
+  margin-left: 15px;
+  margin-top: 10px;
+}
+.Footer .fa {
+  margin-left: 15px;
+  
+}
+.Footer .li-last {
+  margin-left: 15px;
+
+}
+ }
